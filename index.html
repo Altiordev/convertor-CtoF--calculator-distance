@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <article class="whocan">
+        <h1>Who can go first?</h1>
+        <div class="wrapper__distance">Distance: <input class="distance" type="text" placeholder="100km"><button class="btn calculate">Calculate</button></div>
+        <div class="wrapper__result">
+            <div class="result__item human">
+                <h5><i class="fa-solid fa-person-running"></i><br>On foot</h5>
+                <div><span class="result">N</span> hours</div>
+            </div>
+            <div class="result__item velo">
+                <h5><i class="fa-solid fa-bicycle"></i><br>On a bicycle</h5>
+                <div><span class="result">N</span> hours</div>
+            </div>
+            <div class="result__item auto">
+                <h5><i class="fa-solid fa-car"></i><br>On a car</h5>
+                <div><span class="result">N</span> hours</div>
+            </div>
+            <div class="result__item plane">
+                <h5><i class="fa-solid fa-plane"></i><br>On a plane</h5>
+                <div><span class="result">N</span> hours</div>
+            </div>
+        </div>
+    </article>
+
+    <hr class="center-wrap">
+
+    <article class="whocan">
+        <h1>Convert the temperatue</h1>
+        <div class="wrapper__distance">Temperatue in Celcius: <input class="temperature" type="text" placeholder="&#8451;"></div>
+        <div class="wrapper__distance">Temperatue in Celcius:
+            <div><span class="result-temperature">? </span> &#8457;(fahrenheit)</div>
+        </div>
+
+        <button class="btn btn-convert">Convert</button>
+    </article>
+    <script src="./app.js"></script>
+</body>
+
+</html>

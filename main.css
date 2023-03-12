@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    border-top: 5px solid #13656B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whocan {
+    text-align: center;
+}
+
+.wrapper__distance {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.distance {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    background-color: #17A2B8;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.wrapper__result {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.result__item {
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.result__item div {
+    font-weight: 900;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+.center-wrap {
+    width: 100%;
+}
+
+.result-temperature {
+    font-weight: 900;
+}
+
+.btn-convert {
+    background-color: #007BFF;
+}
