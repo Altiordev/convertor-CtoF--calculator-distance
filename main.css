@@ -82,4 +82,5 @@ h5 {
 
 .btn-convert {
     background-color: #007BFF;
+    cursor: pointer;
 }
