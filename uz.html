@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div>
+        <div class="language language_uz">
+            <a href="./index.html"><img src="./images/usa.png" alt="ENG"></a>
+            <a href="./uz.html"><img src="./images/uzb.png" alt="UZ"></a>
+        </div>
+    </div>
+    <article class="whocan">
+        <h1>Kim birinchi boradi?</h1>
+        <form class="wrapper__distance">Masofa: <input class="distance" type="number" placeholder="100km"><button class="btn calculate" type="submit">Hisobla</button></form>
+        <div class="wrapper__distance previous1">Oldingi qiymat: <span class="previous"></span>km</div>
+        <div class="wrapper__result">
+            <div class="result__item human">
+                <h5><i class="fa-solid fa-person-running"></i><br>Piyoda</h5>
+                <div><span class="result">N</span> soat</div>
+            </div>
+            <div class="result__item velo">
+                <h5><i class="fa-solid fa-bicycle"></i><br>Velosiped</h5>
+                <div><span class="result">N</span> soat</div>
+            </div>
+            <div class="result__item auto">
+                <h5><i class="fa-solid fa-car"></i><br>Avtomobil</h5>
+                <div><span class="result">N</span> soat</div>
+            </div>
+            <div class="result__item plane">
+                <h5><i class="fa-solid fa-plane"></i><br>Samalyot</h5>
+                <div><span class="result">N</span> soat</div>
+            </div>
+        </div>
+    </article>
+
+    <hr class="center-wrap">
+
+    <article class="whocan">
+        <h1>Selsiy'dan Farengeyt'ga</h1>
+        <form>
+            <div class="wrapper__distance">Selsiy'dagi harorat: <input class="temperature" type="number" placeholder="&#8451;">
+            </div>
+            <div class="wrapper__distance">Oldingi qiymat: <span class="previousCelcius"></span>&#8451;</div>
+            <div class="wrapper__distance">Farengeyt'dagi harorat:
+                <div><span class="result-temperature">? </span> &#8457;(farengeyt)</div>
+            </div>
+            <button class="btn btn-convert" type="submit">O‘girish</button>
+        </form>
+    </article>
+    <script src="./app.js"></script>
+</body>
+
+</html>
